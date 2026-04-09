@@ -1,7 +1,6 @@
-# Railway configuration
-
 [build]
-  builder = "Docker"
+builder = "dockerfile"
 
 [deploy]
-  startCommand = "your-start-command-here"
+startCommand = "python bot.py"
+restartPolicyType = "always"
