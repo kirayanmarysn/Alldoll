@@ -1,0 +1,7 @@
+# Railway configuration
+
+[build]
+  builder = "Docker"
+
+[deploy]
+  startCommand = "your-start-command-here"
