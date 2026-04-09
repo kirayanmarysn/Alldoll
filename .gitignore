@@ -1,4 +1,12 @@
-downloads/
 __pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
 .env
-*.pyc
+.env.*
+*.log
+downloads/
+tmp/
+.DS_Store
